@@ -40,7 +40,6 @@ load_config() {
   phoenix_dir=$build_dir/$phoenix_relative_path
 
   info "Will use the following versions:"
-  info "* Node ${node_version}"
   info "Will export the following config vars:"
   info "* Config vars ${config_vars_to_export[*]}"
 }
